@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.head{
+    margin:auto;
+    background-color: rgb(227, 227, 227);
+    width:90vw;
+    margin-top:15px;
+    padding-bottom:15px;
+    padding-top:15px;
+
+    display: flex;
+    justify-content:space-between;  
+    align-items: center;
+    font-size: 25px;
+    border: 0.5px solid rgba(128, 128, 128, 0.274);
+    border-radius: 20px;
+    
+}
+
+
+.hleft{
+    /* background-color: rgb(154, 125, 52); */
+}
+
+.hright{
+    /* background-color: pink; */
+}
+
+.hright :nth-child(n){
+    padding: 0px 10px 0px 10px;
+}
+
+
+
