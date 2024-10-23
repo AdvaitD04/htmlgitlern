@@ -9,9 +9,11 @@ header{
     justify-content: space-around;
     align-items: center;
     
+    
 }
 
 .head{
+    
     margin:auto;
     background-color: rgb(227, 227, 227);
     width:90vw;
@@ -82,4 +84,30 @@ header{
     background-color: green;
 }
 
+.inbody{
+    margin-top: 20px;
+    height:900px;
+    background-color: pink;
+}
 
+footer {
+    position: relative; /* Set footer position */
+    height: 40vh; 
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position:sticky;
+    top:20px;
+}
+
+.fotbox {
+    width: 90%; 
+    max-height: 80%; 
+    position: sticky;
+    bottom:20px;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    background-color: rgb(137, 13, 33);
+    padding: 20px; /* Add some padding for aesthetics */
+    border-radius: 10px; /* Optional: Add border radius for visual appeal */
+}
